@@ -1,47 +1,92 @@
 body {
-	font-family: "Poppins", sans-serif;
-}
-
-.container {
 	display: flex;
-	background-color: #fbeee6;
-	padding: 10px;
+	font-family: 'Funnel Display';
 }
 
-.leftside {
-	background-image: url(splash.jpg);
-	background-size: 100%;
+.left {
+	background-image: url(afrah-0x-_TV1zQFU-unsplash.jpg);
 	background-repeat: no-repeat;
-	width: 400px;
-	height: 500px;
-	margin-right: 10px;
-	border: red 2px solid;
+	background-size: cover;
+	height: 95vh;
+	width: 30vw;
 	display: flex;
 	flex-direction: column;
 }
 
-.title {
-	color: lightgrey;
-	background-color: rgba(43, 43, 43, 0.5);
-	border: blue 2px solid;
+.right {
+	width: 70vw;
+}
+
+img {
+	width: 50px;
+	margin-right: 20px;
+}
+
+.banner {
+	display: flex;
+	background: rgba(115, 115, 115, 0.5);
+	margin-top: 200px;
+	text-align: center;
+	justify-content: center;
 }
 
 h1 {
-	margin-left: 20px;
-}
-
-.logo {
-	width: 80px;
-}
-
-.rightside {
-	display: flex;
-	flex-direction: column;
-	margin-top: 7%;
-	max-width: 50vw;
+	text-decoration: underline;
+	text-decoration-style: double;
+	font-size: 4.3rem;
+	font-family: 'Tangerine';
 }
 
 .imgcopyright {
-	color: lightgrey;
-	text-align: center;
+	margin: auto auto 0 auto;
+	font-size: 0.8rem;
+	color: cornsilk;
+
+	a {
+		color: cornsilk;
+	}
+}
+
+fieldset {
+	display: flex;
+	column-count: 2;
+	margin: auto 150px;
+	font-size: 1.5rem;
+	background-color: cornsilk;
+	box-shadow: 10px 5px 5px #6f4e37;
+	border: none;
+}
+
+.col1,
+.col2 {
+	width: 50%;
+}
+
+.text {
+	margin: 100px 150px 50px 150px;
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+	font-size: 1.5rem;
+
+}
+
+button {
+	background-color: #6f4e37;
+	color: #fbeee6;
+	font-size: 1.6rem;
+	margin: 35px 0 0 150px;
+	padding: 10px;
+	box-shadow: 10px 5px 5px #6f4e37;
+	border: none;
+	border-radius: 25px;
+}
+
+input:focus {
+	box-shadow: 5px 2px 2px black;
+	outline-color: #6f4e37;
 }
